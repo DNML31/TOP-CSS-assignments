@@ -1,64 +1,39 @@
-/* * {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(198, 198, 198);
-}
-
-.body {
-    width: 700px;
-    height: 700px;
-    margin: 10px;
-    background-color:aqua;
-    border: 5px solid white;
-}
-
-.title {
-    display: inline-block;
-    font-size: 16px;
-    border: 8px solid white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: 8px;
-}
-.content {
-    display: inline-block;
-    font-size: 16px;
-    border: 8px solid white;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: 8px;
-}
-
-.button-container {
-    display: block;
-    text-align: center;
-    padding: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
-    border: 8px solid white;
-} */
-*{
+* {
     background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.body {
-    border: 5px solid white;
-    width: 400px;
-    height: 0 auto;
+body {
+    width: 420px;
+}
+
+div {
+    display: block;
+    border: 8px solid white;
+    padding: 8px;
+    background-color: rgb(200, 250, 250);
+}
+
+p {
+    text-align: center;
+    display: block;
+    background-color: rgb(200, 250, 250);
+    margin-bottom: 0;
+}
+
+button {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: -8px;
 }
 
 .title {
-    display: block;
-    box-sizing: border-box;
-    width: 400px;
-    font-size: 20px;
-    margin: 8px;
-    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
 }
 
 .content {
@@ -66,19 +41,12 @@
     padding-bottom: 16px;
     padding-left: 8px;
     padding-right: 8px;
-    margin: 0;
-    border: 5px solid white;
+    margin-top: -8px;
 }
 
 .button-container {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin: 0 auto;
+    text-align: center;
+    padding: 8px;  
+    margin-top: -8px;
 }
 
-.p {
-    background-color: rgb(95, 20, 20);
-    text-align: center;
-}
