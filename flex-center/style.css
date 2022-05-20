@@ -1,0 +1,18 @@
+.box {
+    background-color: blue;
+    border: 10px solid rgb(13, 13, 138);
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-box {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 10px solid rgb(118, 31, 31);    
+    color: black;    
+    text-align: center;
+}
