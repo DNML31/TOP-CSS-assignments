@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-weight: bold;
 }
 
@@ -10,35 +10,30 @@
     background-color: rgb(255, 229, 172);
     justify-content: space-evenly;
     align-items: center;
+    height: 70px;
 }
 
-.leftside {
-    display: flex;
-    margin-right: auto;
-}
-
-.rightside {
-    display: flex;
-    margin-left: auto;
-}
-
-.button {
+a {
+    text-decoration: none;   
     background-color: white;
     color: blue;
-    text-align: center;
+    margin: 5px;
     padding: 5px;
-    margin: 10px;
-    justify-content: space-evenly;
-    flex: 1;
+    font-size: 15px;
 }
 
 .logo {
     background-color: white;
     color: orange;
     font-size: 30px;
+    padding: 5px;
+
 }
 
-/* .header .button {
+ul {
+    display: flex;
     justify-content: space-evenly;
-    flex: 1;
-} */
+    flex-flow: row nowrap;
+    list-style-type: none;
+
+}
