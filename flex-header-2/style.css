@@ -1,0 +1,48 @@
+.header {
+    display: flex;    
+    color: rgb(119, 11, 119);
+    font-family: monospace;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(119, 11, 119);
+    margin: 16px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    background:rgb(119, 11, 119);
+    color: white;
+    height: 15px;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(119, 11, 119);
+    margin: 8px;
+}
