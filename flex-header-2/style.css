@@ -14,7 +14,7 @@
 
 h1 {
     font-style: italic;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 50px;
     margin: 8px;
 }
@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     color:rgb(119, 11, 119);
     margin: 16px;
+    font-size: 17px;
 }
 
 .rightside {
@@ -36,13 +37,16 @@ a {
     height: 15px;
     border-radius: 5px;
     margin: 8px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 15px;
+    
 }
 
 .circle {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     background: rgb(119, 11, 119);
     margin: 8px;
+    flex-shrink: 0;
 }
