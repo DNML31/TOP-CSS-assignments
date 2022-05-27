@@ -1,52 +1,68 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+
 .header {
-    display: flex;    
-    color: rgb(119, 11, 119);
-    font-family: monospace;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.leftside,
+.rightside {
+    display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     align-items: center;
+    gap: 16px;
 }
 
 .leftside {
-    display: flex;
-    align-items: center;
+    margin-right: auto;
 }
 
-h1 {
+.rightside {
+    margin-left: auto;
+}
+
+.logo {
+    font-weight: 900;
     font-style: italic;
-    font-weight: bolder;
-    font-size: 50px;
-    margin: 8px;
+    font-size: 40px;
+    color: rgb(67, 3, 86);
+    font-family: monospace;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 a {
     text-decoration: none;
-    color:rgb(119, 11, 119);
-    margin: 16px;
-    font-size: 17px;
+    padding: 8px;
+    color: rgb(67, 3, 86);
+    font-family: monospace;
 }
 
-.rightside {
-    display: flex;
-    align-items: center;
-}
-
-.notification {
-    background:rgb(119, 11, 119);
+button {
     color: white;
-    height: 15px;
-    border-radius: 5px;
-    margin: 8px;
-    padding: 10px;
-    font-size: 15px;
-    
+    background-color:rgb(67, 3, 86);
+    border-radius: 4px;
+    align-self: flex end;
 }
 
-.circle {
-    height: 70px;
-    width: 70px;
+.profile-image {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    background: rgb(119, 11, 119);
-    margin: 8px;
-    flex-shrink: 0;
+    background-color:rgb(67, 3, 86);
 }
