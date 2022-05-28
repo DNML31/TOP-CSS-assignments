@@ -1,0 +1,33 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+.plants {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    max-width: 200px;
+    gap: 0px 52px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;  
+}
+
+.barberry, .chilli, .pepper, .saffron {
+    height: auto;
+    width: 200px;
+}
