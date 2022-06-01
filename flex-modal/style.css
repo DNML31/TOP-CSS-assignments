@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(166, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: slategrey;
+    padding: 15px;
+    width: 650px;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: blue;
+    background-color: rgb(200, 200, 255);
+    flex-shrink: 0;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.continue {
+    background-color: rgb(76, 76, 255);
+    color: white;
+    border-radius: 8px;
+    border-color: rgb(223, 223, 223);
+    width: auto;
+    align-self: flex-start;
+    padding: 10px 15px;
+}
+
+.cancel {
+    background-color: white;
+    color: rgb(76, 76, 255);
+    border-radius: 8px;
+    border-color:rgb(223, 223, 223);
+    width: auto;
+    align-self: flex-start;
+    padding: 10px 15px;
+}
+
+.close-button {
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: grey;
+    background-color: rgb(216, 216, 216);
+    flex-shrink: 0;
+}
